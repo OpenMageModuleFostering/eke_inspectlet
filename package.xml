@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Eke_Inspectlet</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Inspectlet session recording integration module for Magento.</summary>
+    <description>This extension integrates the required code snippet for Inspectlet session recording service to work along with tagging of user events. </description>
+    <notes>Initial release of Inspectlet integration module. </notes>
+    <authors><author><name>Eke Digital</name><user>ekedigital</user><email>dane@ekedigital.com</email></author></authors>
+    <date>2016-10-03</date>
+    <time>19:30:28</time>
+    <contents><target name="magecommunity"><dir name="Eke"><file name="Inspectlet" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></target><target name="magelocal"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="eke_inspectlet.xml" hash=""/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eke_Inspectlet.xml" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Helper_Abstract</name><channel>community</channel><min>1.6</min><max>1.9</max></package></required></dependencies>
+</package>

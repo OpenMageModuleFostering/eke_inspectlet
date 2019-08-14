@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Eke_Inspectlet",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Inspectlet session recording integration module for Magento.",
+    "authors": [
+    {
+        "name": "Eke Digital",
+        "email": "dane@ekedigital.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
